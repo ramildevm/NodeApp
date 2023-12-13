@@ -1,5 +1,5 @@
 <resources>
     <string name="app_name">NodeApp</string>
     <string name="no_children">Нет дочерних элементов.</string>
-    <string name="swipe_to_delete">Для удаления узла свайпните его навлево</string>
+    <string name="swipe_to_delete">Для удаления узла свайпните его налево</string>
 </resources>
