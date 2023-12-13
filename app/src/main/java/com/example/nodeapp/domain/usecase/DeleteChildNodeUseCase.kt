@@ -1,0 +1,10 @@
+package com.example.nodeapp.domain.usecase
+
+import com.example.nodeapp.domain.repository.NodeRepository
+import javax.inject.Inject
+
+class DeleteChildNodeUseCase @Inject constructor(
+    private val repository: NodeRepository,
+) {
+    suspend operator fun invoke(id: Int) = repository.deleteNode(id)
+}
